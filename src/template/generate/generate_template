@@ -1,0 +1,7 @@
+source.type=sql_server
+source.db={0}
+source.tables={1}
+target.type={2}
+target.db={3}
+target.schema={4}
+autoCreate={5}

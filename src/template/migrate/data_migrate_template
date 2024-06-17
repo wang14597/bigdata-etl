@@ -1,0 +1,9 @@
+sourceDB={0}
+subcommand={1}
+dbType={2}
+sourceTable={3}
+whereCondition={4}
+targetDB={5}
+targetTable={6}
+taskNum={7}
+splitBy={8}

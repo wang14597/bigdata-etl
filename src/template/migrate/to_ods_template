@@ -1,0 +1,8 @@
+dbType=hive
+sourceDB={0}
+sourceTable={1}
+targetDB={2}
+targetTable={3}
+partitionDate={4}
+partition={5}
+derivedColumn={6}

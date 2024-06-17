@@ -1,0 +1,84 @@
+{
+  "model": "desktop.document2",
+  "pk": 5025,
+  "fields": {
+    "owner": [
+      "admin"
+    ],
+    "name": "etl_tool_data_check",
+    "description": "",
+    "uuid": "1b3ffda1-a74d-0894-3eea-66cfcaab4ee5",
+    "type": "oozie-workflow2",
+    "connector": null,
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"check\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"8596c350-d084-811b-2703-298ed38f6046\", \"size\": 12}], \"id\": \"529cb2c9-811c-86d0-45e5-24752c4beb3c\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"2a1bffae-4b92-6ed6-1e4c-6a14653a8706\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"check\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"8596c350-d084-811b-2703-298ed38f6046\", \"size\": 12}], \"id\": \"529cb2c9-811c-86d0-45e5-24752c4beb3c\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"849e4893-e11b-2bd5-599a-a9ae0896dd8b\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"aad30b02-8c52-c8ca-7f21-e106d7c3cd3e\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"849e4893-e11b-2bd5-599a-a9ae0896dd8b\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"aad30b02-8c52-c8ca-7f21-e106d7c3cd3e\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"2a1bffae-4b92-6ed6-1e4c-6a14653a8706\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"19514294-9728-e0a2-f2b3-7d49c4109ec5\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1638857796.16\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"etl_tool_data_check\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": false, \"movedNode\": null, \"linkMapping\": {\"8596c350-d084-811b-2703-298ed38f6046\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"8596c350-d084-811b-2703-298ed38f6046\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"8596c350-d084-811b-2703-298ed38f6046\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"8596c350-d084-811b-2703-298ed38f6046\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"spark-8596\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [{\"value\": \"/user/hive/etl_tool/etl-tools-1.0.0-SNAPSHOT.jar\"}], \"job_xml\": \"\", \"app_name\": \"myspark\", \"spark_opts\": \"\", \"retry_interval\": [], \"class\": \"com.thoughtworks.bigdata.dataworkflow.Runner\", \"retry_max\": [], \"job_properties\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"spark_master\": \"yarn\", \"mode\": \"client\", \"prepares\": [], \"credentials\": [\"hcat\", \"hive2\"], \"jars\": \"etl-tools-1.0.0-SNAPSHOT.jar\", \"spark_arguments\": [{\"value\": \"check\"}, {\"value\": \"-p\"}, {\"value\": \"hdfs:///user/hive/etl_tool/a.p\"}], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"spark-widget\", \"id\": \"8596c350-d084-811b-2703-298ed38f6046\", \"actionParameters\": []}], \"id\": 5025, \"nodeNamesMapping\": {\"8596c350-d084-811b-2703-298ed38f6046\": \"spark-8596\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"1b3ffda1-a74d-0894-3eea-66cfcaab4ee5\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2022-01-07T14:09:16.516",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "73d1bbbb-7ff9-4cc2-aa3e-e533d8af8971",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "c30df3bd-65a2-4fa2-83f9-52c6b9b052c7",
+        1,
+        true
+      ],
+      [
+        "bbce3ec5-8477-4ead-9414-5cf56eaa8e2b",
+        1,
+        true
+      ],
+      [
+        "d0a1a0e8-160d-44d1-a0fd-8a4dbe6d7fd3",
+        1,
+        true
+      ],
+      [
+        "875990e6-445b-4ab5-8c63-a639612ece27",
+        1,
+        true
+      ],
+      [
+        "2f09ea58-0707-435e-98ba-519b6e93b98f",
+        1,
+        true
+      ],
+      [
+        "ad64a270-671c-40ff-8b79-d8f624095031",
+        1,
+        true
+      ],
+      [
+        "642ce310-b563-4d34-9232-ba6613145bb8",
+        1,
+        true
+      ],
+      [
+        "8c2a1058-5c19-45a0-b0e4-69f37089fff9",
+        1,
+        true
+      ],
+      [
+        "25a94672-41ae-478c-8e0b-df76b9154cb2",
+        1,
+        true
+      ],
+      [
+        "2e3a6dcd-599b-45b1-9807-15b2287f4bf4",
+        1,
+        true
+      ],
+      [
+        "60021a98-41d2-48cd-a67a-8a47a7beaf06",
+        1,
+        true
+      ]
+    ]
+  }
+}

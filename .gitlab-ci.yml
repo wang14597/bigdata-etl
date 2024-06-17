@@ -1,0 +1,24 @@
+image: python:3.8
+
+before_script:
+  - pip install poetry
+  - poetry config virtualenvs.create false
+  - apt-get update
+  - apt-get install zip
+
+
+cache:
+  key: "$CI_JOB_NAME"
+  paths:
+    - .cache/pip
+    - venv
+build:
+  stage: build
+  script:
+    - sh main.sh
+    - zip -r data-migration-config conf/data-migration-config
+
+  artifacts:
+    paths:
+      - ./data-migration-config.zip
+    expire_in: 12h

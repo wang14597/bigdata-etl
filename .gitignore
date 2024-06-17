@@ -1,0 +1,8 @@
+.idea
+
+venv
+
+.
+.DS_Store
+*.pyc
+*workflow.json
